@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import Hotelgallery from "./Hotelgallery"
 
 function Hero() {
   return (
@@ -143,6 +144,8 @@ function Hero() {
         
         </div>
        </section>
+
+       <Hotelgallery />
 
     </>
   )
