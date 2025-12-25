@@ -147,7 +147,199 @@ function Hero() {
         </div>
        </section>
 
+       <br />
+       <br />
+
+        <section>
+        <div className="py-10 md:py-16 lg:py-20 bg-orange-100">
+            <div className="px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:items-center">
+                
+                {/* Image */}
+                <div className="relative h-80 md:h-150 bg-gray-100 rounded-2xl dark:bg-neutral-800">
+                <img
+                    className="absolute inset-0 size-full object-cover rounded-2xl"
+                    src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?q=80&w=768&auto=format&fit=crop"
+                    alt="Kenyan coffee highlands"
+                />
+                </div>
+
+                {/* Content */}
+                <div className="pt-10 md:p-10">
+                <blockquote className="max-w-4xl mx-auto">
+                    
+                    <p className="mb-6 md:text-lg text-black">
+                      Rooted in Kenyan Hospitality
+                    </p>
+
+                    <p className="text-xl sm:text-2xl lg:text-3xl lg:leading-normal text-black">
+                      Mgeni is built for welcoming. From seamless check-ins to restful rooms and warm service, every detail is designed to make guests feel at home—effortlessly and comfortably.
+                    </p>
+
+                    <footer className="mt-6 md:mt-10">
+                    <div className="border-neutral-700">
+                        <button
+                        type="button"
+                        className="group inline-flex items-center gap-x-3 text-black text-sm focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none"
+                        >
+                        <span className="size-8 md:size-10 flex flex-col justify-center items-center bg-black text-white rounded-full group-hover:scale-105 group-focus:scale-105 transition-transform duration-300 ease-in-out">
+                            <svg
+                            className="shrink-0 size-5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                            >
+                            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                            </svg>
+                        </span>
+                        Watch the Video
+                        </button>
+                    </div>
+                    </footer>
+
+                </blockquote>
+                </div>
+
+            </div>
+            </div>
+        </div>
+     </section>
+
        <Hotelgallery />
+        
+         <section>
+        {/* Contact */}
+        <div className="max-w-7xl px-4 sm:px-6 lg:px-8 py-12 lg:py-24 mx-auto">
+            <div className="mb-6 sm:mb-10 max-w-2xl text-center mx-auto">
+            <h2 className="font-medium text-black text-2xl sm:text-4xl">
+                Contact Us
+            </h2>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-6 md:gap-8 lg:gap-12">
+            {/* Image */}
+            <div className="aspect-w-16 aspect-h-6 lg:aspect-h-14 overflow-hidden bg-gray-100 rounded-2xl">
+                <img
+                className="transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=700&h=800&q=80"
+                alt="Kenyan coffee farm"
+                />
+            </div>
+
+            {/* Content */}
+            <div className="space-y-8 lg:space-y-16">
+                {/* Address */}
+                <div>
+                <h3 className="mb-5 font-semibold text-black">
+                    Our Suites
+                </h3>
+
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
+                    <div className="flex gap-4">
+                    <svg
+                        className="shrink-0 size-5 text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                    >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                    </svg>
+
+                    <div className="grow">
+                        <p className="text-sm text-gray-600">
+                        Kenya
+                        </p>
+                        <address className="mt-1 text-black not-italic">
+                        Rift Valley Highlands<br />
+                        Nakuru County
+                        </address>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                {/* Contacts */}
+                <div>
+                <h3 className="mb-5 font-semibold text-black">
+                    Get in Touch
+                </h3>
+
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
+                    {/* Email */}
+                    <div className="flex gap-4">
+                    <svg
+                        className="shrink-0 size-5 text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                    >
+                        <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z" />
+                        <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
+                    </svg>
+
+                    <div className="grow">
+                        <p className="text-sm text-gray-600">
+                        Email us
+                        </p>
+                        <p>
+                        <a
+                            className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black"
+                            href="mailto:hello@riftvalleyroast.co.ke"
+                        >
+                            hello@mgeni.co.ke
+                        </a>
+                        </p>
+                    </div>
+                    </div>
+
+                    {/* Phone */}
+                    <div className="flex gap-4">
+                    <svg
+                        className="shrink-0 size-5 text-gray-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                    >
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+
+                    <div className="grow">
+                        <p className="text-sm text-gray-600">
+                        Call us
+                        </p>
+                        <p>
+                        <a
+                            className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-hidden focus:before:bg-black"
+                            href="tel:+254712345678"
+                        >
+                            +254 712 345 678
+                        </a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            {/* End Content */}
+            </div>
+        </div>
+        {/* End Contact */}
+     </section>
 
        <Footer />
 

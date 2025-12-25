@@ -1,4 +1,5 @@
 import Navbar from "./HeroSecction/Navbar"
+import FooterSection from "./HeroSecction/Footer"
 
 function SupportTeam() {
   return (
@@ -106,6 +107,8 @@ function SupportTeam() {
           </div>
         </div>
       </section>
+
+      <FooterSection />
     </>
   )
 }
